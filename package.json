@@ -13,7 +13,7 @@
   "main": "./dist/npm.js",
   "style": "dist/firebaseui.css",
   "scripts": {
-    "build": "gulp",
+    "build": "gulp build-js-it",
     "build-all": "gulp build-all",
     "build-soy": "gulp build-soy",
     "demo": "npm run build && ./buildtools/run_demo.sh",
